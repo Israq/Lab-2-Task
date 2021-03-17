@@ -1,0 +1,133 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  #content {
+	background:#edeef0;
+	width:100%;
+	padding:30px 0 50px 0;
+}
+.content-subpages {
+	padding-top:25px !important;
+}
+.header-content {
+	width:100%;
+	background:url(../images/header-content.jpg) center bottom repeat;
+	margin:0 auto;
+	position:relative;
+	z-index:99;
+	margin-top:-25px;
+	padding-bottom:36px;
+}
+.header-subpages {
+	padding-bottom:65px !important;
+}
+.img-radius {
+	border-radius:7px;
+}
+.border-1 {
+	background:url(../images/border-1.jpg) right 0 repeat-y;
+}
+.border-2 {
+	background:url(../images/border-2.gif) right 0 repeat-y;
+}
+.block-1 {
+	padding-top:70px;
+	width:320px;
+	float:left;
+	text-align:center;
+}
+.block-1>div {
+	padding:10px 30px 15px 30px;
+	margin-top:14px;
+}
+#content>div {
+	width:880px;
+	margin:0 auto;
+}
+.col-1 {
+	width:570px;
+	float:left;
+	padding-right:30px;
+}
+.col-2 {
+	width:240px;
+	float:left;
+	padding-left:40px;
+}
+.col-3 {
+	width:410px;
+	float:left;
+	padding-right:30px;
+}
+.col-4 {
+	width:400px;
+	float:left;
+	padding-left:40px;
+}
+.col-1 ul {
+	width:240px;
+}
+.col-1 ul:first-child {
+	margin-right:41px;
+}
+.block-2 p.color-2 {
+	margin:7px 0 11px 0;
+}
+.block-3>div.wrap {
+	float:left;
+	width:260px;
+	margin-right:40px;
+}
+blockquote {
+	color:#e88800;
+	padding-left:15px;
+	display:inline-block;
+}
+#address{
+    
+        clear: both;
+        position: relative;
+        height: 200px;
+        margin-top: -200px;
+    
+}
+footer {
+	width:880px;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	padding:43px 0 40px 0;
+}
+#FeedBack{
+   
+        width: 200%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+    
+}
